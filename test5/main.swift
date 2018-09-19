@@ -10,9 +10,7 @@ import Foundation
 
 var i:[Int] = [1,4,7,8,2,3,6,9,5,0]
 
-for _ in i {
     print(i)
-}
 
 var temp:Int
 
@@ -26,8 +24,6 @@ for sort in 0...9 {
     }
 }
 
-for _ in i {
-    print(i)
-}
+print(i)
 
 
