@@ -8,26 +8,26 @@
 
 import Foundation
 
-var i:[Int] = [9,8,7,6,5,4,3,2,1,0]
+var i:[Int] = [1,4,7,8,2,3,6,9,5,0]
+
+for _ in i {
+    print(i)
+}
 
 var temp:Int
-
-for sort in i {
-    print(index)
-}
 
 for sort in 0...9 {
     for sort2 in 0...9 {
         if i[sort] < i[sort2] {
             temp = i[sort]
             i[sort] = i[sort2]
-            i[sort] = temp
+            i[sort2] = temp
         }
     }
 }
 
-for sort in i {
-    printf(sort)
+for _ in i {
+    print(i)
 }
 
 
